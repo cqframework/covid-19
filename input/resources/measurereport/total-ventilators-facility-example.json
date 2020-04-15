@@ -1,0 +1,40 @@
+{
+    "resourceType": "MeasureReport",
+    "id": "exIpgIZ2KRCpuIrsZ1v5mpBdAwVWrJ77AAAV3tpfplf5Bvzvw41h3M5wjTXNaSq-fkrRiKloO5-wUPxcp0orOxA3",
+    "status": "complete",
+    "type": "individual",
+    "measure": "http://open.epic.com/Measure/ICU-Total-Ventilators-Facility",
+    "subject": {
+        "reference": "Location/eDvShAeUfxUlbCN1A6OATOQ3",
+        "display": "River Hills Hospital System"
+    },
+    "date": "2020-04-01",
+    "reporter": {
+        "reference": "Organization/e9OtaUAOSwwwfGDaKD43WbA3",
+        "display": "River Hills Hospital System"
+    },
+    "period": {
+        "start": "2020-03-18",
+        "end": "2020-03-18"
+    },
+    "group": [
+        {
+            "population": [
+                {
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "initial-population",
+                                "display": "Initial Population"
+                            }
+                        ]
+                    },
+                    "count": 183
+                }
+            ],
+            "measureScore": {
+              "value": 183
+            }
+        }
+    ]
+}

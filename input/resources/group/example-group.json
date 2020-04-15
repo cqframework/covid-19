@@ -1,0 +1,20 @@
+{
+  "resourceType": "Group",
+  "id": "example-group",
+  "type": "person",
+  "actual": false,
+  "characteristic": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/cqf-expression",
+          "valueExpression": {
+            "language": "text/cql",
+            "expression": "exists [Condition: Diabetes]"
+          }
+        }
+      ],
+      "exclude": false
+    }
+  ]
+}
